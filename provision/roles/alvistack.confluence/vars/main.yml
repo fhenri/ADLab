@@ -1,0 +1,50 @@
+---
+
+# (c) Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+_postgresql_jdbc_version:
+  "42.3": "42.3.6"
+
+_postgresql_jdbc_download:
+  "42.3.6":
+    url: "http://jdbc.postgresql.org/download/postgresql-42.3.6.jar"
+    dest: "/var/cache/ansible/43666128a1d1d6b36870b858973a170d3fa6293c969684fe88f42a71140293a0/postgresql-42.3.6.jar"
+    checksum: "43666128a1d1d6b36870b858973a170d3fa6293c969684fe88f42a71140293a0"
+
+_confluence_version:
+  "7.18": "7.18.1"
+  "7.17": "7.17.3"
+
+_confluence_download:
+  "7.18.1":
+    url: "http://product-downloads.atlassian.com/software/confluence/downloads/atlassian-confluence-7.18.1.tar.gz"
+    dest: "/var/cache/ansible/304ab50129c951858fbeded9df4f9f513bfe42b0c8f97b1be5ef4ad1cf19b5d4/atlassian-confluence-7.18.1.tar.gz"
+    checksum: "304ab50129c951858fbeded9df4f9f513bfe42b0c8f97b1be5ef4ad1cf19b5d4"
+  "7.18.0":
+    url: "http://product-downloads.atlassian.com/software/confluence/downloads/atlassian-confluence-7.18.0.tar.gz"
+    dest: "/var/cache/ansible/1a0a52a871725794f4d231febd03f6342ae888ef57e8d2d92065f060fd5ef729/atlassian-confluence-7.18.0.tar.gz"
+    checksum: "1a0a52a871725794f4d231febd03f6342ae888ef57e8d2d92065f060fd5ef729"
+  "7.17.3":
+    url: "http://product-downloads.atlassian.com/software/confluence/downloads/atlassian-confluence-7.17.3.tar.gz"
+    dest: "/var/cache/ansible/be8f6eef281ea47b30bdbbe4e19ee50d8b23f1f628d0792183b4467aea34d1b2/atlassian-confluence-7.17.3.tar.gz"
+    checksum: "be8f6eef281ea47b30bdbbe4e19ee50d8b23f1f628d0792183b4467aea34d1b2"
+  "7.17.2":
+    url: "http://product-downloads.atlassian.com/software/confluence/downloads/atlassian-confluence-7.17.2.tar.gz"
+    dest: "/var/cache/ansible/3a30785ada3976c2fc3eb857f012e5dbd29758275325eee5465f4a6f5bb5cd40/atlassian-confluence-7.17.2.tar.gz"
+    checksum: "3a30785ada3976c2fc3eb857f012e5dbd29758275325eee5465f4a6f5bb5cd40"
+  "7.17.1":
+    url: "http://product-downloads.atlassian.com/software/confluence/downloads/atlassian-confluence-7.17.1.tar.gz"
+    dest: "/var/cache/ansible/4c5b56b8947fb7730c6ecf0677cd7c0723a732d893e10c5b729801c585f31586/atlassian-confluence-7.17.1.tar.gz"
+    checksum: "4c5b56b8947fb7730c6ecf0677cd7c0723a732d893e10c5b729801c585f31586"

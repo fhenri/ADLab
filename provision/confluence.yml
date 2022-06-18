@@ -1,0 +1,13 @@
+- hosts: all
+  become: true
+
+  vars:
+    - confluence_owner: "confluence"
+    - confluence_group: "confluence"
+
+
+  tasks:
+    - name: include role
+      ansible.builtin.include_role:
+        name: alvistack.confluence
+      tags: alvistack.confluence

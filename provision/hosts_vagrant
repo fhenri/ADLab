@@ -1,0 +1,12 @@
+[all:vars]
+ansible_user=vagrant
+ansible_password=vagrant
+password=vagrant
+ansible_connection=winrm
+ansible_winrm_server_cert_validation=ignore
+ansible_winrm_operation_timeout_sec=400
+ansible_winrm_read_timeout_sec=500
+enable_http_proxy=no
+
+[dc1]
+192.168.56.10

@@ -1,0 +1,7 @@
+---
+- name: Domain Controller configuration
+  hosts: dc1
+  serial: 1
+  roles:
+  - common
+  - domain_controller
